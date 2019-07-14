@@ -1,0 +1,153 @@
+/* GLOBAL */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Main section */
+body
+{
+    margin: 0px 0px;
+    background: #ebf3f5;
+    font: 12px Arial;
+}
+a { 
+    text-decoration:none; 
+    font-family:Tahoma; 
+    color:#008000;
+}
+.clear {
+    clear: both;
+    height: 1px;
+}
+.fl
+{
+    float: left;
+}
+.fr
+{
+    float: right;
+}
+/* container */
+#footer, #container
+{
+    width: 1000px;
+    margin: 0px auto;
+    padding: 0;
+    background: #ebf3f5;
+}
+#left, #right
+{
+    width: 80px;
+    margin: 0px;
+}
+.top-left-body, .top-right-body
+{
+    background: #ebf3f5 url('../images/background/bg_topside.gif') repeat-x;
+    width: 100%;
+    height: 690px;
+    margin-top: 0px;
+}
+.center-body
+{
+    width: 840px;
+    background: #fff;
+}
+#space
+{
+    width: 840px;
+    height: 5px;
+    background: #91cdd5;
+}
+.op
+{
+    position: relative;
+    overflow: hidden;
+}
+#banner
+{
+    width: 840px;
+}
+.logo
+{
+    width: 226px;
+}
+.banner
+{
+    width: 614px;
+}
+/* top menu */
+.top-menu
+{
+    width: 614px;
+    height: 38px;
+    background: #91cdd5;
+}
+.top-menu .mnu-item
+{
+    padding-left: 17px;
+    padding-right: 17px;
+    text-align: center;
+    padding-top: 13px;
+    height: 25px;
+    background: url('../images/background/c-topmnu.gif') repeat-x;
+}
+.top-menu .mnu-bar
+{
+    width: 4px;
+    height: 38px;
+}
+/* end top menu */
+/* Link */
+.lnk-top-mnu
+{
+    font-family: Arial;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    display:block;
+    width:59px;
+}
+.lnk-top-mnu:hover
+{
+    text-decoration: none;
+    color: #ff0000;
+}
