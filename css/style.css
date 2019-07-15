@@ -151,3 +151,32 @@ a {
     text-decoration: none;
     color: #ff0000;
 }
+.navi {
+    width: 226px;
+    margin-top: 0px;
+}
+.navi .header
+{
+    width: 226px;
+}
+.navi .header .left
+{
+    background: url('../images/background/l-hdnavi.gif') no-repeat left;
+    width: 11px;
+    height: 30px;
+}
+.navi .header .center
+{
+    background: url('../images/background/c-hdnavi.gif') repeat-x;
+    width: 207px;
+    height: 23px;
+    padding-top: 7px;
+    color: #ff0000;
+    font-weight: bold;
+}
+.navi .header .right
+{
+    background: url('../images/background/r-hdnavi.gif') no-repeat left;
+    width: 8px;
+    height: 30px;
+}
