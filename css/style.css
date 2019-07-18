@@ -546,15 +546,130 @@ a {
 /*end introduce*/
 /*category detail*/
 .one_block{
-    min-height: 132px;
+   margin-top: 8px;    
 }
 .small-image {
     margin-right: 5px;
 }
 .small-image .img-news{
     max-width: 120px;
-    max-height: 160px;
+    min-width: 120px;
+    max-height: 180px;
     border: solid 1px #eaeaea;
     padding: 5px;
 }
+.infor{
+    margin-top: 5px;  
+    width: 460px;
+}
 /*end category detail*/
+/*pagination*/
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.pagination a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.paginate{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+/*end pagination*/
+.othernews
+{
+    width: 600px;
+}
+.othernews ul
+{
+    list-style: none;
+    margin: 5px;
+    padding: 0;
+}
+.othernews li
+{
+    height: 12px;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    background-position: 0 7px;
+    padding-top: 3px;
+}
+.lnk-cate
+{
+    color: #008000;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.lnk-cate:hover
+{
+    text-decoration: underline;
+}
+.lnk-cate:actived
+{
+    color: #014501;
+}
+.contact {
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.txtr
+{
+    text-align: right;
+    padding-right: 10px;
+}
+.email-print
+{
+    margin-bottom: 10px;
+    width: 100px;
+    float: right;
+}
+.email-print a
+{
+    font: 11px arial;
+    color: #8a0000;
+    text-decoration: none;
+}
+.email-print img
+{
+    border: 0;
+    vertical-align: middle;
+}
+.title_news
+{
+    font-family: Arial;
+    font-size: 12px;
+    color: #004175;
+    text-decoration: none;
+}
+.title_news:hover
+{
+    text-decoration: underline;
+}
